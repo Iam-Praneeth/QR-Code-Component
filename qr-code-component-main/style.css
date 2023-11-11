@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+.card {
+  width: 250px;
+  position: absolute;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 15px;
+  text-align: center;
+}
+body {
+  background: hsl(212, 45%, 89%);
+}
+h4 {
+  font-size: 20px;
+  font-family: "Outfit", specimen;
+}
+p {
+  font-size: 15px;
+  font-family: "Outfit", specimen;
+  padding: 0 10px 10px 10px
+}
+#qrpic {
+  width: 100%;
+  border-radius: 15px;
+}
+@media only screen and (max-width: 500px) {
+  body {
+    width: 20px;
+  }
+}
